@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">Hall of Fame</string>
+    <string name="main_inspiration">Inspiration</string>
+    <string name="main_savedesc">Save description</string>
+    <string name="main_person1">First person</string>
+    <string name="main_person2">Second person</string>
+    <string name="main_person3">Third person</string>
+
+    <string-array name="random_facts">
+        <item>Stallman likes free and open source</item>
+        <item>Stallman uses linux</item>
+        <item>Feynman is a theoretical physicist</item>
+        <item>Some of Feynman\'s lectures can be found on YouTube</item>
+        <item>Linus made the Linux kernel</item>
+        <item>Linus uses Fedora on his Macbook</item>
+    </string-array>
+
+    <string name="main_person1name">Richard Feynman</string>
+    <string name="main_person2name">Linus Torvalds</string>
+    <string name="main_person3name">Richard Stallman</string>
+
+    <string name="main_person1date">1918 – 1988</string>
+    <string name="main_person2date">1969 –</string>
+    <string name="main_person3date">1953 –</string>
+
+    <string name="main_person1desc">American theoretical physicist, known for his work in the path integral formulation of quantum mechanics, the theory of quantum electrodynamics, and the physics of the superfluidity of supercooled liquid helium</string>
+    <string name="main_person2desc">Finnish–American software engineer who is the creator, and historically, the principal developer of the Linux kernel</string>
+    <string name="main_person3desc">American free software movement activist and programmer. He campaigns for software to be distributed in a manner such that its users receive the freedoms to use, study, distribute and modify that software. </string>
+    <string name="main_editdeschint">Edit description</string>
+</resources>

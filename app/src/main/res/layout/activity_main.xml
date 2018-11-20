@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/iv_main_person1"
+            
+        android:layout_width="85dp"
+        android:layout_height="85dp"
+        android:layout_marginTop="10dp"
+
+        android:src="@drawable/feynman"
+            
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        />
+        
+    <TextView
+        android:id="@+id/tv_main_person1name"
+            
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+            
+        app:layout_constraintLeft_toRightOf="@id/iv_main_person1"
+        app:layout_constraintTop_toTopOf="@id/iv_main_person1"
+
+        android:text="@string/main_person1name"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        />
+        
+    <TextView
+        android:id="@+id/tv_main_person1date"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        app:layout_constraintLeft_toRightOf="@id/iv_main_person1"
+        app:layout_constraintTop_toBottomOf="@id/tv_main_person1name"
+
+        android:text="@string/main_person1date"
+        android:textSize="15sp"
+        android:textColor="@color/dateColor"
+        />
+
+    <TextView
+        android:id="@+id/tv_main_person1desc"
+
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+
+        app:layout_constraintStart_toEndOf="@id/iv_main_person1"
+        app:layout_constraintTop_toBottomOf="@id/tv_main_person1date"
+        app:layout_constraintBottom_toBottomOf="@id/iv_main_person1"
+        app:layout_constraintEnd_toEndOf="parent"
+
+        android:textSize="15sp"
+        android:text="@string/main_person1desc"
+        android:maxLines="2"
+        android:ellipsize="end"
+        />
+
+
+    <ImageView
+        android:id="@+id/iv_main_person2"
+
+        android:layout_width="85dp"
+        android:layout_height="85dp"
+        android:layout_marginTop="20dp"
+
+        android:src="@drawable/linus"
+
+        app:layout_constraintTop_toBottomOf="@id/iv_main_person1"
+        app:layout_constraintLeft_toLeftOf="parent"
+        />
+
+    <TextView
+        android:id="@+id/tv_main_person2name"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        app:layout_constraintLeft_toRightOf="@id/iv_main_person2"
+        app:layout_constraintTop_toTopOf="@id/iv_main_person2"
+
+        android:text="@string/main_person2name"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:id="@+id/tv_main_person2date"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        app:layout_constraintLeft_toRightOf="@id/iv_main_person2"
+        app:layout_constraintTop_toBottomOf="@id/tv_main_person2name"
+
+        android:text="@string/main_person2date"
+        android:textSize="15sp"
+        android:textColor="@color/dateColor"
+        />
+
+    <TextView
+        android:id="@+id/tv_main_person2desc"
+
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+
+        app:layout_constraintStart_toEndOf="@id/iv_main_person2"
+        app:layout_constraintTop_toBottomOf="@id/tv_main_person2date"
+        app:layout_constraintBottom_toBottomOf="@id/iv_main_person2"
+        app:layout_constraintEnd_toEndOf="parent"
+
+        android:textSize="15sp"
+        android:text="@string/main_person2desc"
+        android:maxLines="2"
+        android:ellipsize="end"
+        />
+
+    <ImageView
+        android:id="@+id/iv_main_person3"
+
+        android:layout_width="85dp"
+        android:layout_height="85dp"
+        android:layout_marginTop="20dp"
+
+        android:src="@drawable/stallman"
+
+        app:layout_constraintTop_toBottomOf="@id/iv_main_person2"
+        app:layout_constraintLeft_toLeftOf="parent"
+        />
+
+    <TextView
+        android:id="@+id/tv_main_person3name"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        app:layout_constraintLeft_toRightOf="@id/iv_main_person3"
+        app:layout_constraintTop_toTopOf="@id/iv_main_person3"
+
+        android:text="@string/main_person3name"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:id="@+id/tv_main_person3date"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        app:layout_constraintLeft_toRightOf="@id/iv_main_person3"
+        app:layout_constraintTop_toBottomOf="@id/tv_main_person3name"
+
+        android:text="@string/main_person3date"
+        android:textSize="15sp"
+        android:textColor="@color/dateColor"
+        />
+
+    <TextView
+        android:id="@+id/tv_main_person3desc"
+
+
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+
+        app:layout_constraintStart_toEndOf="@id/iv_main_person3"
+        app:layout_constraintTop_toBottomOf="@id/tv_main_person3date"
+        app:layout_constraintBottom_toBottomOf="@id/iv_main_person3"
+        app:layout_constraintEnd_toEndOf="parent"
+
+        android:textSize="15sp"
+        android:text="@string/main_person3desc"
+        android:maxLines="2"
+        android:ellipsize="end"
+        />
+
+    <Button
+        android:id="@+id/btn_main_inspiration"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:text="@string/main_inspiration"
+
+        app:layout_constraintTop_toBottomOf="@id/iv_main_person3"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        />
+
+    <EditText
+        android:id="@+id/et_main_editdesc"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+
+        app:layout_constraintTop_toBottomOf="@id/btn_main_inspiration"
+        android:hint="@string/main_editdeschint"
+        />
+
+    <Button
+        android:id="@+id/btn_main_savedesc"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:text="@string/main_savedesc"
+
+        app:layout_constraintTop_toBottomOf="@id/et_main_editdesc"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        />
+
+    <RadioGroup
+        android:id="@+id/rg_main_persons"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+
+        app:layout_constraintTop_toBottomOf="@id/btn_main_savedesc"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent">
+
+        <RadioButton
+            android:id="@+id/rb_main_person1"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:text="@string/main_person1"
+            />
+
+        <RadioButton
+            android:id="@+id/rb_main_person2"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:text="@string/main_person2"
+            />
+
+        <RadioButton
+            android:id="@+id/rb_main_person3"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:text="@string/main_person3"
+            />
+    </RadioGroup>
+</android.support.constraint.ConstraintLayout>
